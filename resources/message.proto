@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message User {
+    string fullName = 1;
+    bool isAdult = 2;
+    message Location {
+        string fullAddress = 1;
+    }
+    Location location = 3;
+}
