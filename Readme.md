@@ -1,4 +1,6 @@
-# Json to Json translation using liquid templates
+# Json transformation using liquid templates
+This is a javascript project for transforming an input json file, using rules configured in a templating engine such as liquid. 
+
 
 
 # Getting started
